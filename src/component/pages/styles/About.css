@@ -1,0 +1,30 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f8f9fa;
+}
+/* .about {
+  background: url(../image/2343432.jpg);
+  background-size: contain;
+  background-attachment: fixed;
+} */
+h1 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300;
+}
+
+h3 {
+  margin-top: 30px;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+
+p {
+  font-size: 1rem;
+  line-height: 1.6;
+}

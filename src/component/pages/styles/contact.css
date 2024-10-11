@@ -1,0 +1,59 @@
+.contact-section .contact-info p a {
+  color: #1a1a1a;
+}
+
+.contact-section .box {
+  width: 100%;
+  display: block;
+  border-radius: 4px;
+}
+@media (max-width: 991.98px) {
+  .contact-section .box {
+    margin-bottom: 30px;
+  }
+}
+.contact-section .box .icon {
+  width: 100px;
+  height: 100px;
+  background: rgba(255, 255, 255, 0.1);
+  margin: 0 auto;
+  margin-bottom: 2em;
+  border-radius: 50%;
+}
+.contact-section .box .icon span {
+  color: #ffbd39;
+  font-size: 30px;
+}
+.contact-section .box h3 {
+  font-size: 17px;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+.contact-section .contact-form {
+  width: 100%;
+}
+
+.contact-section .img {
+  width: 100%;
+  background-position: top center;
+}
+@media (max-width: 991.98px) {
+  .contact-section .img {
+    height: 500px;
+  }
+}
+
+.contact-section .contact-form {
+  width: 100%;
+}
+@media (max-width: 767.98px) {
+  .contact-section .contact-form .btn-primary {
+    display: block;
+    width: 100%;
+  }
+}
+
+.contact-form > .form-group .form-control {
+  margin: 15px;
+}

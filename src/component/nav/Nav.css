@@ -1,0 +1,116 @@
+nav {
+  background-color: #1f3a93;
+  height: 100%;
+  width: 100%;
+}
+
+/* Search Field */
+.search_field {
+  background-color: rgba(255, 255, 255, 0.5);
+  border: none;
+}
+
+.search_field:focus {
+  box-shadow: 0 0 15px rgba(64, 64, 64, 0.2);
+  background-color: rgba(240, 240, 240, 0.8);
+  border: 1px transparent;
+  outline: none;
+}
+
+/* Search Button */
+.btn_search {
+  background-color: #f39c12;
+  color: #fff;
+  font-weight: 600;
+  font-size: 14px;
+  min-width: auto;
+  transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.btn_search:hover {
+  background-color: #d35400;
+  cursor: pointer;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  font-size: 13px;
+}
+
+/* Navigation Links */
+.nav_link {
+  color: #ecf0f1;
+  font-weight: 600;
+  transition-duration: 500ms;
+}
+
+.nav_link:hover {
+  color: #d35400;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+.nav-item > .nav-link.active {
+  color: #f39c12;
+  text-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+  filter: drop-shadow(0px 0px 5px rgba(64, 64, 64, 0.2));
+}
+
+/* Offcanvas Body */
+.offcanvas-body {
+  background-color: rgba(31, 58, 147, 0.9);
+}
+
+/* Navbar Toggler */
+.navbar-toggler {
+  border: none;
+}
+
+/* Offcanvas Navigation Items */
+.offcanvas-body .nav-item {
+  margin-right: 1rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Logo */
+.nav-logo {
+  background-image: url(../image/ecommerce-svgrepo-com.svg);
+  background-size: 30px 30px;
+  background-position: right top;
+  height: 40px;
+  width: 138px;
+  background-repeat: no-repeat;
+  text-align: left;
+  border: 0px;
+  margin: 0px;
+}
+.logo-txt {
+  font-size: 17px;
+}
+
+.cart-icon {
+  font-size: 20px;
+  transition: transform 0.3s ease, filter 0.3s ease;
+}
+
+/* Custom Offcanvas Header */
+.custom-offcanvas-header {
+  background-color: rgba(
+    31,
+    58,
+    147,
+    0.9
+  ); /* Navy Blue with slight transparency */
+  padding: 1rem 1.5rem;
+  border-bottom: 1px solid rgba(240, 240, 240, 0.2); /* Light Grey Border */
+}
+
+/* Close Button White */
+.btn-close-white {
+  filter: invert(1);
+}
+
+/* Offcanvas Title */
+.offcanvas-title {
+  color: #ecf0f1;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
